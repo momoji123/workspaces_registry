@@ -2,7 +2,7 @@
   "description": "Ubuntu OS with Java, Node, and Browsers for development purpose.",
   "docker_registry": "https://registry.mokican.com/v2",
   "image_src": "ubuntu.png",
-  "name": "kasm-ubuntu-jng:dev-V0.1",
+  "name": "registry.mokican.com/kasm-ubuntu-jng:dev-V0.1",
   "run_config": {
     "hostname": "kasm"
   },
