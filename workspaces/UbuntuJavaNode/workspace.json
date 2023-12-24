@@ -1,0 +1,25 @@
+{
+  "description": "Ubuntu OS with Java, Node, and Browsers for development purpose.",
+  "docker_registry": "https://registry.mokican.com/v2",
+  "image_src": "ubuntu.png",
+  "name": "kasm-ubuntu-jng:dev-V0.1",
+  "run_config": {
+    "hostname": "kasm"
+  },
+  "categories": [
+    "Productivity",
+	"Development"
+  ],
+  "friendly_name": "Ubuntu Dev",
+  "architecture": [
+    "amd64",
+    "arm64"
+  ],
+  "compatibility": [
+    "1.13.x",
+    "1.14.x"
+  ],
+  "uncompressed_size_mb": 6900,
+  "cores": 4,
+  "memory": 6000000000
+}
