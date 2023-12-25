@@ -1,0 +1,24 @@
+{
+  "description": "Ubuntu OS Focal with Java, Node, and Browsers for development purpose.",
+  "docker_registry": "https://registry.mokican.com/v2",
+  "image_src": "ubuntu.png",
+  "name": "registry.mokican.com/kasm-ubuntu-jng:1.0-focal",
+  "run_config": {
+    "hostname": "kasm"
+  },
+  "categories": [
+    "Productivity",
+	"Development"
+  ],
+  "friendly_name": "Ubuntu Dev Focal",
+  "architecture": [
+    "amd64",
+    "arm64"
+  ],
+  "compatibility": [
+    "1.14.x"
+  ],
+  "uncompressed_size_mb": 6900,
+  "cores": 4,
+  "memory": 6000
+}
