@@ -325,3 +325,4 @@ Schema 1.1 added the concept of channels. Each registry can specify the channels
 If you are using channels, update processing/processjson.js and specify the `default_channel` such as `'develop'`. If you aren't using channels you don't need to do anything, it will automatically detect there are no channels and set the correct value.
 
 &nbsp;
+
