@@ -18,10 +18,7 @@
     {
 	  "version": "1.16.x",
 	  "image":  "registry.mokican.com/kasm-ubuntu-jng:1.16-jammy",
-	  "uncompressed_size_mb": 6900,
-	  "available_tags": [
-        "1.16.0"
-      ]
+	  "uncompressed_size_mb": 7852
 	}
   ],
   "cores": 4,
