@@ -2,7 +2,6 @@
   "description": "Ubuntu OS Jammy with Java, Node, and Browsers for development purpose.",
   "docker_registry": "https://registry.mokican.com/v2",
   "image_src": "ubuntu.png",
-  "name": "registry.mokican.com/kasm-ubuntu-jng:1.16-jammy",
   "run_config": {
     "hostname": "kasm"
   },
@@ -16,9 +15,12 @@
     "arm64"
   ],
   "compatibility": [
-    "1.15.x"
+    {
+	  "version": "1.15.x",
+	  "image":  "registry.mokican.com/kasm-ubuntu-jng:1.16-jammy",
+	  "uncompressed_size_mb": 6900
+	}
   ],
-  "uncompressed_size_mb": 6900,
   "cores": 4,
   "memory": 6000
 }
