@@ -2,15 +2,15 @@
 
 const nextConfig = {
   env: {
-    name: 'Oji Kasm Workspaces',
-    description: 'My private kasm workspace.',
+    name: 'Kasm Technologies',
+    description: 'The official store for Kasm supported workspaces.',
     icon: '/img/logo.svg',
-    listUrl: 'https://momoji123.github.io/workspaces_registry/',
-    contactUrl: 'https://github.com/momoji123/workspaces_registry/issues',
+    listUrl: 'https://registry.kasmweb.com/',
+    contactUrl: 'https://kasmweb.com/support',
   },
   reactStrictMode: true,
   swcMinify: true,
-  basePath: '/workspaces_registry/1.0',
+  basePath: '/kasm-registry/1.0',
   trailingSlash: true,
   images: {
     unoptimized: true,
